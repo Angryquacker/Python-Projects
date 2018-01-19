@@ -1,5 +1,4 @@
 from datetime import *
-from math import *
 
 now = datetime.now()
 type = raw_input("What type of time do you wish to view? Current, Day, Month, or Year? ")
