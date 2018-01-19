@@ -1,7 +1,7 @@
 from datetime import *
 
 now = datetime.now()
-type = raw_input("What type of time do you wish to view? Current, Day, Month, or Year? ")
+type = raw_input("What type of time do you wish to view? Current, Day, Month, or Year? --> ")
 def time():
   if type.lower() == 'day':
     if now.day == 1:
