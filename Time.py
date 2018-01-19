@@ -1,7 +1,8 @@
 from datetime import *
 
 now = datetime.now()
-type = raw_input("What type of time do you wish to view? Current, Day, Month, or Year? --> ")
+run = raw_input("Do you wish to find out the time? Yes, or No? --> ")
+  
 def time():
   if type.lower() == 'day':
     if now.day == 1:
@@ -44,4 +45,10 @@ def time():
   else:
     print "That is not a valid type!"
     
-time()
+if run.lower() == "yes":
+  type = raw_input("What type of time do you wish to view? Current, Day, Month, or Year? --> ")
+  time()
+elif run.lower() == "No":
+  print "End"
+else:
+  print "End"
